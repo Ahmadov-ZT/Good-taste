@@ -1,0 +1,363 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a:hover,
+a:focus {
+    color: #fff !important;
+}
+
+.navbar .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.navbar {
+    background: transparent;
+    border-color: transparent;
+}
+
+.container .navbar-brand {
+    font-size: 25px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.navbar-brandTwo {
+    color: #edbb00;
+    font-weight: bold;
+}
+/****************************************************************************************************/
+.carousel-item {
+    height: 100vh;
+}
+
+.d-block {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.carousel-caption {
+    margin-bottom: 200px;
+    position: relative;
+}
+
+    .carousel-caption h5 {
+        font-size: 70px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+        .carousel-caption h5 span {
+            color: #edbb00;
+        }
+
+.carousel-control-prev {
+    background-image: none;
+}
+
+.carousel-control-next {
+    background-image: none;
+}
+
+.carousel-indicators .active {
+    background-color: #edbb00;
+}
+
+.carousel-caption .btn {
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: #edbb00;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 rgb(255, 106, 0);
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    outline: none;
+    text-align: center;
+    padding-top: 1%;
+    font-weight: bold;
+}
+
+    .carousel-caption .btn:hover {
+        box-shadow: inset 300px 0 0 0 rgb(255, 106, 0);
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+    }
+
+/************************************Responsive Css*************************************/
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+    .carousel-caption {
+        margin-bottom: 200px;
+    }
+
+        .carousel-caption h5 {
+            font-size: 50px;
+        }
+
+        .carousel-caption .btn {
+            width: 120px;
+            height: 40px;
+            font-size: 18px;
+        }
+}
+
+@media only screen and (max-width:767px) {
+    .navbar .navbar-brand {
+        font-size: 30px;
+        padding: 20px 15px;
+    }
+
+    .navbar-collapse {
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .carousel-caption {
+        margin-bottom: 200px;
+    }
+
+        .carousel-caption h5 {
+            font-size: 30px;
+        }
+
+        .carousel-caption .btn {
+            width: 100px;
+            height: 35px;
+            font-size: 15px;
+        }
+}
+
+
+
+
+/********************************************Start*****************************************/
+
+#start {
+    padding: 6% 13%;
+    background-color: #fff;
+    position: relative;
+}
+
+.desbox {
+    text-align: center;
+}
+
+    .desbox h2 {
+        font-size: 50px;
+        margin-top: 15%;
+        font-family: 'Playball', cursive;
+    }
+
+    .desbox .asterisk {
+        font-size: 25px;
+        color: #edbb00;
+    }
+
+    .desbox p {
+        margin-top: 2%;
+    }
+
+
+.imgbox {
+    text-align: center;
+}
+
+.title-image {
+    height: 100%;
+    width: 100%;
+}
+
+/*********************************************Start*******************************************************/
+
+.Parallax {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/Banner0.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-prl {
+    bottom: 4%;
+    display: block;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 89%;
+    margin-bottom: 8%;
+}
+
+
+#prl-des {
+    color: #fff;
+    font-size: 70px;
+    font-family: Arial;
+    text-align: center;
+    display: block;
+    vertical-align: auto;
+    font-weight: bold;
+}
+
+    #prl-des span {
+        color: #edbb00;
+    }
+
+    #prl-des i {
+        color: #fff;
+        font-size: 30px;
+    }
+
+
+/*********************************************Start*******************************************************/
+
+#Menu {
+    padding: 6% 13%;
+    background-color: #fff;
+    position: relative;
+}
+
+.imgboxMenu {
+    text-align: center;
+}
+
+.desboxMenu {
+    text-align: center;
+}
+
+    .desboxMenu h2 {
+        font-size: 50px;
+        margin-top: 15%;
+        font-family: 'Playball', cursive;
+    }
+
+    .desboxMenu .asterisk {
+        font-size: 25px;
+        color: #edbb00;
+    }
+
+    .desboxMenu p {
+        margin-top: 2%;
+    }
+
+.title-imageMenu {
+    height: 50%;
+    width: 50%;
+    padding: 1%;
+}
+
+/*********************************************Start*******************************************************/
+
+
+.Background {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/Background1.jpg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-Background {
+    bottom: 4%;
+    display: block;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 89%;
+    margin-bottom: 8%;
+}
+
+
+#Background-des {
+    color: #fff;
+    font-size: 70px;
+    font-family: Arial;
+    text-align: center;
+    display: block;
+    vertical-align: auto;
+    font-weight: bold;
+}
+
+    #Background-des span {
+        color: #edbb00;
+    }
+
+    #Background-des i {
+        color: #fff;
+        font-size: 30px;
+    }
+
+
+/*********************************************Start*******************************************************/
+
+#Reservation {
+    padding: 6% 13%;
+    background-color: #fff;
+    position: relative;
+}
+
+.desboxRe {
+    text-align: center;
+}
+
+    .desboxRe h2 {
+        font-size: 50px;
+        margin-top: 15%;
+        font-family: 'Playball', cursive;
+    }
+
+    .desboxRe .asterisk {
+        font-size: 25px;
+        color: #edbb00;
+    }
+
+    .desboxRe p {
+        margin-top: 2%;
+    }
+
+.imgboxRe {
+    text-align: center;
+}
+
+.title-imageRe {
+    height: 50%;
+    width: 50%;
+    padding: 2%;
+}
+
+/*********************************************footer*******************************************************/
+
+footer {
+    padding: 4% 10%;
+    background-color: #000;
+    position: relative;
+    color: #fff;
+}
+
+.desboxf{
+}
+.desboxf h4{
+    text-align: left;
+}
+.desboxf P{
+    text-align: justify;
+    margin-top:3rem;
+}
